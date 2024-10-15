@@ -1,0 +1,1 @@
+public/fantasy_interior_kit/textures/*.png filter=lfs diff=lfs merge=lfs -text

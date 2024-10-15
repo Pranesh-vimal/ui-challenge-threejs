@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+canvas {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+#navigation {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+
+#navigation button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+}
